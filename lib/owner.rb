@@ -7,8 +7,8 @@ class Owner
    @@all << self
  end
  
-def say_species
-  self.species
-end
+  def say_species
+    self.species
+  end
 
 end
