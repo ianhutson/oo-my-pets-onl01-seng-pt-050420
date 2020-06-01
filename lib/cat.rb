@@ -7,3 +7,4 @@ def initialize(name, owner)
   @owner = owner
   @mood = "nervous"
 end
+end
