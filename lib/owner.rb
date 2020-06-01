@@ -25,7 +25,8 @@ class Owner
   end
   
   def cats
-    self.Cat.all
+    Cat.all.select do |cat|
+      
   end
   
   def dogs
