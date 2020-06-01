@@ -11,5 +11,4 @@ def initialize(name, owner)
   @@all << self
 end
 
-
 end
