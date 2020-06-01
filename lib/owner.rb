@@ -29,7 +29,7 @@ class Owner
   end
   
   def dogs
-    self.dogs.all
+    self.Dog.all
   end
 end
 
