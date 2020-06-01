@@ -25,7 +25,7 @@ class Owner
   end
   
   def cats
-    self.cats.all
+    self.Cat.all
   end
   
   def dogs
