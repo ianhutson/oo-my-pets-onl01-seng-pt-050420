@@ -20,8 +20,8 @@ class Owner
     @@all.length
   end
   
-  def selfreset_all
-    Owner.reset_all
+  def self.reset_all
+    destroy_all
   end
 end
 
