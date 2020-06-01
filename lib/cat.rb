@@ -4,7 +4,7 @@ attr_writer :owner, :mood
 @@all = []
 
 
-def initialize(name, owner)
+def initialize(name, Owner)
   @name = name
   @owner = owner
   @mood = "nervous"
