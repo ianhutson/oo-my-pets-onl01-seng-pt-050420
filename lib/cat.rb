@@ -1,6 +1,6 @@
 class Cat
 attr_reader :name
-attr_writer :owner, :mood
+attr_writer :Owner, :mood
 @@all = []
 
 
