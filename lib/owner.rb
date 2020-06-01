@@ -10,12 +10,15 @@ class Owner
   def say_species
     self.species
   end
+  
   def self.all
     @@all
   end
+  
   def self.count
     Owner.count
   end
+  
   def reset_all
     Owner.destroy
   end
